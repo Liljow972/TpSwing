@@ -1,0 +1,1 @@
+Dans le premier cas l'incrémentation se fait après l'évaluation de l'expression et dans l'autre avant.

@@ -1,0 +1,15 @@
+methode1: Même s'il n'y a pas d'arguments à envoyer à la méthode, il doit y avoir une liste de paramètres dans l'en-tête. Dans ce cas, il faut ajouter des parenthèses vides.
+
+methode2: Il y a une référence à la variable i1 qui n'est pas visible dans la méthode methode2. La portée d'une variable est limitée à son bloc de déclaration, dans le cas de i1 à la méthode main.
+
+methode3: La dernière instruction exécutée n'est pas return. Cette instruction est obligatoire pour toutes les méthodes qui retourne une valeur, i.e. qui n'a pas le type void dans l'en-tête.
+
+methode4: Le type de la valeur retournée n'est pas le même que le type specifié dans l'en-tête de la méthode.
+
+methode5: La méthode essaie de retourner une valeur avec return. Cela n'est pas possible si l'en-tête de la méthode est void.
+
+methode6: La méthode n'a pas de type pour la valeur retournée. Si la méthode ne retourne pas de valeur, il faut indiquer void dans l'en-tête.
+
+methode7: La méthode sansErreur est appelée avec 1 argument tandis qu'elle en demande 2. Le nombre d'arguments doit toujours correspondre au nombre de paramètres.
+
+methode8: La méthode sansErreur est maintenant appelée avec 2 arguments, ce qui est correct, mais le type des arguments ne correspond pas au type des paramètres.
